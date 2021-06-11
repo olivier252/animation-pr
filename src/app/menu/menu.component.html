@@ -1,0 +1,10 @@
+
+<div class="fixed-menu">
+    <div *ngFor="let itemFooterMenu of itemsFooterMenu; let indexItem = index">
+        <a routerLink="{{ itemFooterMenu.utilRoute }}" routerLinkActive="active">
+            <button mat-button color="primary" class="mat-button">
+                <mat-icon color="accent">{{ itemFooterMenu.matIcon }}</mat-icon>
+            </button>
+        </a>
+    </div>
+</div>

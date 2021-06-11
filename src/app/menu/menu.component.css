@@ -1,0 +1,8 @@
+.fixed-menu {
+    background-color: rgb(232, 231, 238);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
